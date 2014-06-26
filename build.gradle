@@ -4,7 +4,7 @@ apply plugin: 'maven'
 defaultTasks 'clean', 'jar', 'test'
 
 group = 'com.athaydes'
-version = "1.2-SNAPSHOT"
+version = "1.3-SNAPSHOT"
 
 def groovyVersion = '2.1.5'
 def spockVersion = '1.0-groovy-2.0-SNAPSHOT'
