@@ -17,6 +17,16 @@ import org.spockframework.runtime.model.SpecInfo
  */
 class SpockReportExtension implements IGlobalExtension {
 
+	@Override
+	void start() {
+		
+	}
+
+	@Override
+	void stop() {
+
+	}
+
 	static final PROJECT_URL = 'https://github.com/renatoathaydes/spock-reports'
 	static final String DEFAULT_OUTPUT_DIR = "build/outputDir"
 
