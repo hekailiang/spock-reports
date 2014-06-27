@@ -1,6 +1,8 @@
 apply plugin: 'groovy'
 apply plugin: 'maven'
 
+sourceCompatibility = '1.6'
+
 defaultTasks 'clean', 'jar', 'test'
 
 group = 'com.athaydes'
